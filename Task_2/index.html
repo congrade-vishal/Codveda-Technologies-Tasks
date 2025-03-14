@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codveda Technologies Task-2</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration Form</h2>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <div class="error" id="nameError">Name is required.</div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <div class="error" id="emailError">Enter a valid email.</div>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" />
+        <div class="error" id="phoneError">
+          Enter a valid phone number (10 digits).
+        </div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <div class="error" id="passwordError">
+          Password must be at least 6 characters.
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div class="success" id="successMessage">
+        Form submitted successfully!
+      </div>
+    </div>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="app.js"></script>
+  </body>
+</html>
